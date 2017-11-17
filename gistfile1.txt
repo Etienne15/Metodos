@@ -1,0 +1,41 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package métodos;
+import java.util.*;
+import java.util.Scanner;
+
+/**
+ *
+ * @author Alumno
+ */
+public class Métodos {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // ¿Qué es un método?
+        /* Conjunto de instrucciones definidas dentro de una clase, 
+        /* que realizan una determinada tarea y a las que podemos invocar 
+        /* mediante un nombre.
+        */
+        Scanner teclado = new Scanner(System.in);
+        int a;
+        int b;
+        int c;
+        System.out.println("Introduce primer número: ");
+        a = teclado.nextInt();
+        System.out.println("Introduce segundo número: ");
+        b = teclado.nextInt();
+        c = (a + b);
+        System.out.println("Suma: " + c);
+    }
+        public static int sumar(int a, int b){
+            int c;
+            c = a + b;
+            return c;
+        }
+}
